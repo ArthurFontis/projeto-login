@@ -3,7 +3,7 @@
 /*
 Paleta de cores
 Verde: #49a09d
-Lilás: #5f2c82
+Bege: #ceceb4
 
 */
 
@@ -14,7 +14,7 @@ Lilás: #5f2c82
     box-sizing: border-box;
 }
 body,html{
-    background-color: rgb(206, 206, 180);
+    background-color: #ceceb4;
     height: 100vh;
     width: 100vw;
 }
