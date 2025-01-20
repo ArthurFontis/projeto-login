@@ -10,14 +10,21 @@
     <main>
     <section id="login">
         <div id="imagem">
-            Foto
+            <!--IMG NO CSS-->
         </div>
         <div id="form">
             <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p> <br>
             <form action="login.php" method="post">
+                <label for="iusuario">Usuário: </label>
+                <input type="text" name="usuario" id="iusuario" required> <br>
+                <label for="isenha">Senha: </label>
+                <input type="password" name="senha" id="isenha" required> <br>
 
-                
+                <input type="submit" value="Entrar"> 
+                <input type="button" value="Esqueci a senha"> <br>
+
+
             </form>
 
         </div>
